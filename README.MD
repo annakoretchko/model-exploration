@@ -50,15 +50,19 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About The Projects</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
         <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">The Projects</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">OOP_forest</a></li>
+        <li><a href="#built-with">classifier_diabetes</a></li>
+        <li><a href="#built-with">comparing_classifiers</a></li>
+        <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
+        <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -68,12 +72,8 @@
 
 
 
-<!-- 
-        <li><a href="#built-with">OOP_forest</a></li>
-        <li><a href="#built-with">classifier_diabetes</a></li>
-        <li><a href="#built-with">comparing_classifiers</a></li>
-        <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
-        <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li> -->
+
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Projects
