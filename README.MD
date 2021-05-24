@@ -54,7 +54,7 @@
       <ul>
       <li><a href="#usage">Built With</a></li>
       <ul>
-    <li><a href="#about-the-project">The Projects</a></li>
+    <a href="#about-the-project">The Projects</a></li>
       <ul>
         <li><a href="#built-with">OOP_forest</a></li>
         <li><a href="#built-with">classifier_diabetes</a></li>
