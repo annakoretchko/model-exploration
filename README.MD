@@ -27,14 +27,11 @@
 <br />
 
 <p align="center">
-  <a href="https://anna-koretchko.ue.r.appspot.com/garmin">
-    <img src="images/garmin.png" alt="Logo" width="800" height="500">
-  </a>
 
-  <h3 align="center">Garmin Running Analysis</h3>
+  <h3 align="center">Model Exploration</h3>
 
   <p align="center">
-    Quick package created to analyze data from Garmin Connect
+    Test various aspects of model performance on multiple datasets
     <br />
     <a href="https://connect.garmin.com/"><strong>Garmin Connect »</strong></a>
     <br />
