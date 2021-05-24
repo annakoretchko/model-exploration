@@ -50,13 +50,14 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Projects</a>
+      <a href="#about-the-project">About The Projects</a>
       <ul>
-        <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li>
+        <li><a href="#built-with">OOP_forest</a></li>
+        <li><a href="#built-with">classifier_diabetes</a></li>
+        <li><a href="#built-with">comparing_classifiers</a></li>
+        <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
         <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li>
       </ul>
-    </li>
-    <li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -65,22 +66,29 @@
 
 
 
+
+
+
 <!-- ABOUT THE PROJECT -->
-## About The Project
-<p align="center">
-<img src="images/Garmin-logo2.jpeg" alt="Logo"> 
-</p>
-I am an avid running and love using my Garmin Forerunner 945 to collect all the data available while I run. Over the past 8 years, I have accumulated quite a large amount of data. I created this python package for anyone to analyse their Garmin Data from the Garmin Connect site and gain deeper understanding about their running analytics!
+## About The Projects
+
+One of the best ways to learn about modeling, is to just mess around with all models. In this repo, I have mutliple datasources and scripts written to evaluate different model performances. 
+
+The goal of this repo is to employ different models, hyper-tuning techniques, and software structure. You can see each project is based off of comapring models, to one extent or another, but it goes another level deeper by having each project strucutred differently (procedural vs object oriented etc) as a way for me to practice and show just how much analytics is an art. 
 
 
-* If you wanna try on your own but don't have a Garmin account, feel free to use the data in the demo-data folder!
+I have created both juypter notebooks and python scripts of the code. I personally like pure python code, but for tutorials such as this, jupyter notebooks are a great resource for shraing. The HTML and PDF of the completed notebook is also provided for your own edification/if you don't want to run the code yourself. 
 
+All data used is for the projects can be found in the *data* folder. 
+
+**Enjoy!**
 
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Python](https://www.python.org/)
+* [jupyter](https://jupyter.org/)
 
 
 
