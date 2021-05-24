@@ -6,10 +6,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
+import os
+import sys
+
 
 # reading in the data and getting into x and y's
 raw = []
-with open('data/marriage.csv') as cf:
+with open('../data/marriage.csv') as cf:
     readcsv = csv.reader(cf, delimiter=',')
     for row in readcsv:
         raw.append(row)
@@ -162,7 +165,7 @@ def pca2(x_):
 
 
 
-def plot_decision_boundary(model, title, x_train, x_test, y_train):
+def plot_decision_boundary(model, title, x_train, x_test, y_train, show = False):
 
     """
     [Function used to plot the decision boundary. This will help viually compare the results of each model.]
@@ -192,6 +195,20 @@ def plot_decision_boundary(model, title, x_train, x_test, y_train):
     plt.ylim(yy.min(), yy.max())
     plt.title(title)
 
+    # shows if true
+    if show:
+        plt.show()
+    
+    cwd = os.getcwd()
+    output_path = os.path.join(cwd,'output')
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
+
+
+    # saves image to output folder
+    fname = str(model) + ".png"
+    pout = os.path.join(output_path,fname)
+    plt.savefig(pout)
 
 
 
