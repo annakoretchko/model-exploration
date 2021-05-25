@@ -51,7 +51,7 @@
       <a href="#about-the-project">The Projects</a>
       <ul>
         <li><a href="#built-with">Random Forest Classifier (Object Oriented)</a></li>
-        <li><a href="#built-with">classifier_diabetes</a></li>
+        <li><a href="#built-with">Mutliple Classifiers (Object Oriented)</a></li>
         <li><a href="#built-with">comparing_classifiers</a></li>
         <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
         <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li>
@@ -107,9 +107,9 @@ The objective of this script is to explore an object oriented approach to models
 Click [here](https://github.com/annakoretchko/model-exploration/blob/master/OOP_forest/OOP_forest.ipynb) to follow the notebook tutorial!
 
 
-### Random Forest Classifier (Object Oriented)
+### Mutliple Classifiers (Object Oriented)
 <p align="center">
-<img src="img/classifier_diabetes.png" alt="Logo"> 
+<img src="img/MutlipleClassifiers(ObjectOriented).png.png" alt="Logo"> 
 </p>
 Using the same dataset as for the Random Forest Classifier, this script will walk you through testing different classifiers, hyertuning methods, and speed on diabetes classification cataset.
 
