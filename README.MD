@@ -116,7 +116,7 @@ Using the same dataset as for the Random Forest Classifier, this script will wal
 It has the following strucutre and is also object oriented:
 
 1. Linear Regression Classifer
-  * Classification
+    * Classification
 2. Random Forest Classifier
   1. Classification
   2. Feature Importance
