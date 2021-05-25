@@ -118,16 +118,16 @@ It has the following strucutre and is also object oriented:
 1. Linear Regression Classifer
     * Classification
 2. Random Forest Classifier
-  1. Classification
-  2. Feature Importance
-  3. Hyper-Parameter Tuning
+    * Classification
+    * Feature Importance
+    * Hyper-Parameter Tuning
 3. Support Vector Machine
-  1. Preprocesing
-  2. Classification
-  3. Hyper-Parameter Tuning
-  4. Cross-Validation Results
+    * Preprocesing
+    * Classification
+    * Hyper-Parameter Tuning
+    * Cross-Validation Results
 4. Principal Component Analysis
-  1. Dimensionality reduction is an essential task in many data analysis exercises, and it involves projecting the data to a lower-dimensional space using Singular Value Decomposition.
+    * Dimensionality reduction is an essential task in many data analysis exercises, and it involves projecting the data to a lower-dimensional space using Singular Value Decomposition.
 
 Click [here](https://github.com/annakoretchko/model-exploration/blob/master/OOP_forest/OOP_forest.ipynb) to follow the notebook tutorial!
 
