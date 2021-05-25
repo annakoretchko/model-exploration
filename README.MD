@@ -109,14 +109,14 @@ Click [here](https://github.com/annakoretchko/model-exploration/blob/master/OOP_
 
 ### Random Forest Classifier (Object Oriented)
 <p align="center">
-<img src="images/Garmin-logo2.jpeg" alt="Logo"> 
+<img src="img/classifier_diabetes.png" alt="Logo"> 
 </p>
 Using the same dataset as for the Random Forest Classifier, this script will walk you through testing different classifiers, hyertuning methods, and speed on diabetes classification cataset.
 
 It has the following strucutre and is also object oriented:
 
 1. Linear Regression Classifer
-  A. Classification
+  22. Classification
 2. Random Forest Classifier
   1. Classification
   2. Feature Importance
