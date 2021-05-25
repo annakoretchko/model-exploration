@@ -31,7 +31,7 @@
   <h3 align="center">Model Exploration</h3>
 
   <p align="center">
-    Test various aspects of model performance on multiple dataset
+    Test various aspects of model performance on multiple datasets
   </p>
 </p>
 
@@ -48,7 +48,7 @@
       </ul>
     </li>
     <li><a href="#Random-Forest-Classifier">Random Forest Classifier (Object Oriented)</a></li>
-    <li><a href="#Mutliple-Classifiers">Mutliple Classifiers (Object Oriented)</a></li>
+    <li><a href="#Multiple-Classifiers">Multiple Classifiers (Object Oriented)</a></li>
     <li><a href="#Comparing-Classifiers">Comparing Classifiers</a></li>
     <li><a href="#Random-Forest-vs-SVM-on-Spam-Emails">Random Forest vs SVM on Spam Emails</a></li>
     <li><a href="#Speed-vs-Accuracy-of-Multiple-Models">Speed vs Accuracy of Multiple Models</a></li>
@@ -65,9 +65,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Projects
 
-One of the best ways to learn about modeling, is to just mess around with all models. In this repo, I have mutliple datasources and scripts written to evaluate different model performances. 
+One of the best ways to learn about modeling, is to just mess around with all models. In this repo, I have multiple data sources and scripts written to evaluate different model performances. 
 
-The goal of this repo is to employ different models, hyper-tuning techniques, and software structure. You can see each project is based off of comapring models, to one extent or another, but it goes another level deeper by having each project strucutred differently (procedural vs object oriented etc) as a way for me to practice and show just how much analytics is an art. 
+The goal of this repo is to employ different models, hyper-tuning techniques, and software structure. You can see each project is based off of comparing models, to one extent or another, but it goes another level deeper by having each project structured differently (procedural vs object oriented etc) as a way for me to practice and show just how much analytics is an art. 
 
 
 I have created both juypter notebooks and python scripts of the code. I personally like pure python code, but for tutorials such as this, jupyter notebooks are a great resource for sharing. The HTML and PDF of the completed notebook is also provided for your own edification/if you don't want to run the code yourself. 
@@ -93,7 +93,7 @@ This section should list any major frameworks that you built your project using.
 <img src="img/RandomForestClassifier(ObjectOriented).png" alt="Logo"> 
 </p>
 
-The data for this analysis is of the Pima Indians and their liklihood of diabetetes. The data is publically available and I got it from [here](https://data.world/uci/pima-indians-diabetes), or in the data folder in this repo. 
+The data for this analysis is of the Pima Indians and their likelihood of diabetes. The data is publicly available and I got it from [here](https://data.world/uci/pima-indians-diabetes), or in the data folder in this repo. 
 
 This script implements a random forest classifier where the classifier will be evaluated via the out-of-bag (OOB) error estimate, using the above dataset.
 
@@ -104,23 +104,23 @@ The objective of this script is to explore an object oriented approach to models
 Click [here](https://github.com/annakoretchko/model-exploration/blob/master/RandomForestClassifier(ObjectOriented)/RandomForestClassifier(ObjectOriented).ipynb) to follow the notebook tutorial!
 
 
-## Mutliple Classifiers 
+## Multiple Classifiers 
 **Object Oriented**
 <p align="center">
 <img src="img/MutlipleClassifiers(ObjectOriented).png" alt="Logo"> 
 </p>
-Using the same dataset as for the Random Forest Classifier, this script will walk you through testing different classifiers, hyertuning methods, and speed on diabetes classification cataset.
+Using the same dataset as for the Random Forest Classifier, this script will walk you through testing different classifiers, hyer-tuning methods, and speed on diabetes classification dataset.
 
-It has the following strucutre and is also object oriented:
+It has the following structure and is also object oriented:
 
-1. Linear Regression Classifer
+1. Linear Regression Classifier
     * Classification
 2. Random Forest Classifier
     * Classification
     * Feature Importance
     * Hyper-Parameter Tuning
 3. Support Vector Machine
-    * Preprocesing
+    * Pre-processing
     * Classification
     * Hyper-Parameter Tuning
     * Cross-Validation Results
@@ -136,7 +136,7 @@ Click [here](https://github.com/annakoretchko/model-exploration/blob/master/Mutl
 <img src="img/KNeighborsClassifier(n_neighbors=3).png" alt="Logo"> 
 </p>
 
-There are a myriad of classifiers out there, each with their own use case and rationale for when to be employed. This script goes through the results of Naive Bayes, Logisitc, and KNN all on the same sample dataset so that their results can be directly compared to one another.
+There are a myriad of classifiers out there, each with their own use case and rationale for when to be employed. This script goes through the results of Naive Bayes, Logistic, and KNN all on the same sample dataset so that their results can be directly compared to one another.
 
 Then, I performed PCA to project the data into two-dimensional space so that I can plot the data points and decision boundary of each classifier and visually compare the results.
 
@@ -181,7 +181,7 @@ Click [here](https://github.com/annakoretchko/model-exploration/blob/master/Spee
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This packages allows Garmin Connect users to analyize their data in a pythonic manner, which can be extrapolated further into a myriad of projects! 
+This intended as a walkthrough for various models, hyper-tunning, selection, tradeoffs and exploration. 
 _To see a live demo of the graphs/outputs, please refer to the [Demo](https://anna-koretchko.ue.r.appspot.com/garmin)_
 
 
