@@ -47,11 +47,11 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#built-with">Random Forest Classifier (Object Oriented)</a></li>
-    <li><a href="#built-with">Mutliple Classifiers (Object Oriented)</a></li>
-    <li><a href="#built-with">Comparing Classifiers</a></li>
-    <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
-    <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li>
+    <li><a href="#p1">Random Forest Classifier (Object Oriented)</a></li>
+    <li><a href="#p2">Mutliple Classifiers (Object Oriented)</a></li>
+    <li><a href="#bp3">Comparing Classifiers</a></li>
+    <li><a href="#p4">randomforest_v_svm_classifier</a></li>
+    <li><a href="#p5">speed_v_accuracy_multiple_models</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -99,7 +99,7 @@ Each tree in the forest is constructed using a different bootstrap sample from t
 
 The objective of this script is to explore an object oriented approach to models. This is a binary classification on the dataset to determine if a person has diabetes. 
 
-Click **[here](https://github.com/annakoretchko/model-exploration/blob/master/RandomForestClassifier(ObjectOriented)/RandomForestClassifier(ObjectOriented).ipynb) to follow the notebook tutorial!
+Click [here](https://github.com/annakoretchko/model-exploration/blob/master/RandomForestClassifier(ObjectOriented)/RandomForestClassifier(ObjectOriented).ipynb) to follow the notebook tutorial!
 
 
 ## Mutliple Classifiers (Object Oriented)
@@ -124,7 +124,7 @@ It has the following strucutre and is also object oriented:
 4. Principal Component Analysis
     * Dimensionality reduction is an essential task in many data analysis exercises, and it involves projecting the data to a lower-dimensional space using Singular Value Decomposition.
 
-Click **[here]**(https://github.com/annakoretchko/model-exploration/blob/master/MutlipleClassifiers(ObjectOriented)/MutlipleClassifiers(ObjectOriented).ipynb) to follow the notebook tutorial!
+Click [here](https://github.com/annakoretchko/model-exploration/blob/master/MutlipleClassifiers(ObjectOriented)/MutlipleClassifiers(ObjectOriented).ipynb) to follow the notebook tutorial!
 
 ## Comparing Classifiers
 
@@ -156,7 +156,7 @@ Then, I performed PCA to project the data into two-dimensional space so that I c
 
 I hope you enjoy this exploration into each models efficacy!
 
-Click **[here]**(**https://github.com/annakoretchko/model-exploration/blob/master/comparing_classifiers/comparing_classifiers.ipynb) to follow 
+Click [here](**https://github.com/annakoretchko/model-exploration/blob/master/comparing_classifiers/comparing_classifiers.ipynb) to follow 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
