@@ -47,14 +47,11 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-        <li>
-      <a href="#about-the-project">The Projects</a>
-        <li><a href="#built-with">Random Forest Classifier (Object Oriented)</a></li>
-        <li><a href="#built-with">Mutliple Classifiers (Object Oriented)</a></li>
-        <li><a href="#built-with">Comparing Classifiers</a></li>
-        <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
-        <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li>
-    </li>
+    <li><a href="#built-with">Random Forest Classifier (Object Oriented)</a></li>
+    <li><a href="#built-with">Mutliple Classifiers (Object Oriented)</a></li>
+    <li><a href="#built-with">Comparing Classifiers</a></li>
+    <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
+    <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
