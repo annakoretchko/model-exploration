@@ -166,11 +166,16 @@ Click [here](https://github.com/annakoretchko/model-exploration/blob/master/Rand
 <img src="img/Neural_Network.png" alt="Logo"> 
 </p>
 
-This uses a spam e-mail database (binary classifier (spam or not spam) and tests Random Forest vs One-Class SVM performance.
+This script goes through one of the classic tradeoffs in analytics: speed vs performance. It compares the two on the same dataset of 4 different models:
+
+1. Neural Network
+2. Linear Regression
+3. KNN
+4. Kernel SVM
+5. Linear SVm
 
 
-
-Click [here](https://github.com/annakoretchko/model-exploration/blob/master/Random-Forest-vs-SVM-on-Spam-Emails/Random-Forest-vs-SVM-on-Spam-Emails.ipynb) to follow 
+Click [here](https://github.com/annakoretchko/model-exploration/blob/master/Speed-vs-Accuracy-of-Multiple-Models/Speed-vs-Accuracy-of-Multiple-Models.ipynb) to follow 
 
 
 <!-- USAGE EXAMPLES -->
