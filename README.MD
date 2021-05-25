@@ -50,7 +50,7 @@
     <li><a href="#Random-Forest-Classifier">Random Forest Classifier (Object Oriented)</a></li>
     <li><a href="#Mutliple-Classifiers">Mutliple Classifiers (Object Oriented)</a></li>
     <li><a href="#Comparing-Classifiers">Comparing Classifiers</a></li>
-    <li><a href="#randomforest_v_svm_classifier">randomforest_v_svm_classifier</a></li>
+    <li><a href="#Random-Forest-vs-SVM-on-Spam-Emails">Random Forest vs SVM on Spam Emails</a></li>
     <li><a href="#speed_v_accuracy_multiple_models">speed_v_accuracy_multiple_models</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -88,11 +88,12 @@ This section should list any major frameworks that you built your project using.
 
 <!-- The Projects-->
 ## Random Forest Classifier 
-**(Object Oriented)**
+**Object Oriented**
 <p align="center">
 <img src="img/RandomForestClassifier(ObjectOriented).png" alt="Logo"> 
 </p>
-The data for this analysis is of the Pima Indians and their liklihood of diabetetes. The data can be found [here](https://data.world/uci/pima-indians-diabetes) or in the data folder in this repo. 
+
+The data for this analysis is of the Pima Indians and their liklihood of diabetetes. The data is publically available and I got it from [here](https://data.world/uci/pima-indians-diabetes), or in the data folder in this repo. 
 
 This script implements a random forest classifier where the classifier will be evaluated via the out-of-bag (OOB) error estimate, using the above dataset.
 
@@ -104,7 +105,7 @@ Click [here](https://github.com/annakoretchko/model-exploration/blob/master/Rand
 
 
 ## Mutliple Classifiers 
-**(Object Oriented)**
+**Object Oriented**
 <p align="center">
 <img src="img/MutlipleClassifiers(ObjectOriented).png" alt="Logo"> 
 </p>
@@ -145,20 +146,20 @@ Click [here](https://github.com/annakoretchko/model-exploration/blob/master/comp
 
 
 
-## Comparing Classifiers
+## Random Forest vs SVM on Spam Email
 
 **Comparing Bayes, Logistic, and KNN classifiers**
 <p align="center">
-<img src="img/KNeighborsClassifier(n_neighbors=3).png" alt="Logo"> 
+<img src="img/Random-Forest-vs-SVM-on-Spam-Emails.png" alt="Logo"> 
 </p>
 
-There are a myriad of classifiers out there, each with their own use case and rationale for when to be employed. This script goes through the results of Naive Bayes, Logisitc, and KNN all on the same sample dataset so that their results can be directly compared to one another.
+This uses a spam e-mail database (binary classifier (spam or not spam) and tests Random Forest vs One-Class SVM performance.
 
-Then, I performed PCA to project the data into two-dimensional space so that I can plot the data points and decision boundary of each classifier and visually compare the results.
 
-I hope you enjoy this exploration into each models efficacy!
 
 Click [here](**https://github.com/annakoretchko/model-exploration/blob/master/comparing_classifiers/comparing_classifiers.ipynb) to follow 
+
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
