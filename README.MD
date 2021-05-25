@@ -52,7 +52,7 @@
       <ul>
         <li><a href="#built-with">Random Forest Classifier (Object Oriented)</a></li>
         <li><a href="#built-with">Mutliple Classifiers (Object Oriented)</a></li>
-        <li><a href="#built-with">comparing_classifiers</a></li>
+        <li><a href="#built-with">Comparing Classifiers</a></li>
         <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
         <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li>
       </ul>
@@ -109,7 +109,7 @@ Click [here](https://github.com/annakoretchko/model-exploration/blob/master/OOP_
 
 ### Mutliple Classifiers (Object Oriented)
 <p align="center">
-<img src="img/MutlipleClassifiers(ObjectOriented).png.png" alt="Logo"> 
+<img src="img/MutlipleClassifiers(ObjectOriented).png" alt="Logo"> 
 </p>
 Using the same dataset as for the Random Forest Classifier, this script will walk you through testing different classifiers, hyertuning methods, and speed on diabetes classification cataset.
 
@@ -129,7 +129,23 @@ It has the following strucutre and is also object oriented:
 4. Principal Component Analysis
     * Dimensionality reduction is an essential task in many data analysis exercises, and it involves projecting the data to a lower-dimensional space using Singular Value Decomposition.
 
-Click [here](https://github.com/annakoretchko/model-exploration/blob/master/OOP_forest/OOP_forest.ipynb) to follow the notebook tutorial!
+Click [here](https://github.com/annakoretchko/model-exploration/blob/master/MutlipleClassifiers(ObjectOriented)/MutlipleClassifiers(ObjectOriented).ipynb) to follow the notebook tutorial!
+
+### Comparing Classifiers
+<p align="center">
+<img src="img/KNeighborsClassifier(n_neighbors=3).png" alt="Logo"> 
+</p>
+
+**Comparing Bayes, Logistic, and KNN classifiers**
+
+There are a myriad of classifiers out there, each with their own use case and rationale for when to be employed. This script goes through the results of Naive Bayes, Logisitc, and KNN all on the same sample dataset so that their results can be directly compared to one another.
+
+Then, I performed PCA to project the data into two-dimensional space so that I can plot the data points and decision boundary of each classifier and visually compare the results.
+
+I hope you enjoy this exploration into each models efficacy!
+
+Click [here](https://github.com/annakoretchko/model-exploration/blob/master/comparing_classifiers/comparing_classifiers.ipynb) to follow 
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
