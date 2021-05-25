@@ -31,15 +31,7 @@
   <h3 align="center">Model Exploration</h3>
 
   <p align="center">
-    Test various aspects of model performance on multiple datasets
-    <br />
-    <a href="https://connect.garmin.com/"><strong>Garmin Connect »</strong></a>
-    <br />
-    <br />
-    <a href="/dist/garmin_analysis-0.1-py3-none-any.whl">Latest Package</a>
-    ·
-    <a href="https://anna-koretchko.ue.r.appspot.com/garmin">Demo</a>
-
+    Test various aspects of model performance on multiple dataset
   </p>
 </p>
 
@@ -99,12 +91,12 @@ This section should list any major frameworks that you built your project using.
 
 
 
-<!-- GETTING STARTED -->
+<!-- The Projects-->
 ## The Projects
 
 ### Random Forest Classifier (Object Oriented)
 
-The data for this analysis is of the Pima Indians and their liklihood of diabetetes. The data can be found [here] (https://data.world/uci/pima-indians-diabetes) or in the data folder in this repo. 
+The data for this analysis is of the Pima Indians and their liklihood of diabetetes. The data can be found [here](https://data.world/uci/pima-indians-diabetes) or in the data folder in this repo. 
 
 This script implements a random forest classifier where the classifier will be evaluated via the out-of-bag (OOB) error estimate, using the above dataset.
 
@@ -112,8 +104,32 @@ Each tree in the forest is constructed using a different bootstrap sample from t
 
 The objective of this script is to explore an object oriented approach to models. This is a binary classification on the dataset to determine if a person has diabetes. 
 
-Click [here] (https://github.com/annakoretchko/model-exploration/blob/master/OOP_forest/OOP_forest.ipynb) to follow the notebook tutorial!
+Click [here](https://github.com/annakoretchko/model-exploration/blob/master/OOP_forest/OOP_forest.ipynb) to follow the notebook tutorial!
 
+
+### Random Forest Classifier (Object Oriented)
+<p align="center">
+<img src="images/Garmin-logo2.jpeg" alt="Logo"> 
+</p>
+Using the same dataset as for the Random Forest Classifier, this script will walk you through testing different classifiers, hyertuning methods, and speed on diabetes classification cataset.
+
+It has the following strucutre and is also object oriented:
+
+1. Linear Regression Classifer
+  1. Classification
+2. Random Forest Classifier
+  1. Classification
+  2. Feature Importance
+  3. Hyper-Parameter Tuning
+3. Support Vector Machine
+  1. Preprocesing
+  2. Classification
+  3. Hyper-Parameter Tuning
+  4. Cross-Validation Results
+4. Principal Component Analysis
+  1. Dimensionality reduction is an essential task in many data analysis exercises, and it involves projecting the data to a lower-dimensional space using Singular Value Decomposition.
+
+Click [here](https://github.com/annakoretchko/model-exploration/blob/master/OOP_forest/OOP_forest.ipynb) to follow the notebook tutorial!
 
 <!-- USAGE EXAMPLES -->
 ## Usage
