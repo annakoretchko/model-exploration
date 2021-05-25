@@ -49,13 +49,11 @@
     </li>
         <li>
       <a href="#about-the-project">The Projects</a>
-      <ul>
         <li><a href="#built-with">Random Forest Classifier (Object Oriented)</a></li>
         <li><a href="#built-with">Mutliple Classifiers (Object Oriented)</a></li>
         <li><a href="#built-with">Comparing Classifiers</a></li>
         <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
         <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li>
-      </ul>
     </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -106,7 +104,7 @@ Each tree in the forest is constructed using a different bootstrap sample from t
 
 The objective of this script is to explore an object oriented approach to models. This is a binary classification on the dataset to determine if a person has diabetes. 
 
-Click [here](https://github.com/annakoretchko/model-exploration/blob/master/RandomForestClassifier(ObjectOriented)/RandomForestClassifier(ObjectOriented).ipynb) to follow the notebook tutorial!
+Click **[here]**(https://github.com/annakoretchko/model-exploration/blob/master/RandomForestClassifier(ObjectOriented)/RandomForestClassifier(ObjectOriented).ipynb) to follow the notebook tutorial!
 
 
 ### Mutliple Classifiers (Object Oriented)
@@ -131,7 +129,7 @@ It has the following strucutre and is also object oriented:
 4. Principal Component Analysis
     * Dimensionality reduction is an essential task in many data analysis exercises, and it involves projecting the data to a lower-dimensional space using Singular Value Decomposition.
 
-Click [here](https://github.com/annakoretchko/model-exploration/blob/master/MutlipleClassifiers(ObjectOriented)/MutlipleClassifiers(ObjectOriented).ipynb) to follow the notebook tutorial!
+Click **[here]**(https://github.com/annakoretchko/model-exploration/blob/master/MutlipleClassifiers(ObjectOriented)/MutlipleClassifiers(ObjectOriented).ipynb) to follow the notebook tutorial!
 
 ### Comparing Classifiers
 
@@ -139,8 +137,6 @@ Click [here](https://github.com/annakoretchko/model-exploration/blob/master/Mutl
 <p align="center">
 <img src="img/KNeighborsClassifier(n_neighbors=3).png" alt="Logo"> 
 </p>
-
-
 
 There are a myriad of classifiers out there, each with their own use case and rationale for when to be employed. This script goes through the results of Naive Bayes, Logisitc, and KNN all on the same sample dataset so that their results can be directly compared to one another.
 
@@ -150,6 +146,22 @@ I hope you enjoy this exploration into each models efficacy!
 
 Click [here](https://github.com/annakoretchko/model-exploration/blob/master/comparing_classifiers/comparing_classifiers.ipynb) to follow 
 
+
+
+### Comparing Classifiers
+
+**Comparing Bayes, Logistic, and KNN classifiers**
+<p align="center">
+<img src="img/KNeighborsClassifier(n_neighbors=3).png" alt="Logo"> 
+</p>
+
+There are a myriad of classifiers out there, each with their own use case and rationale for when to be employed. This script goes through the results of Naive Bayes, Logisitc, and KNN all on the same sample dataset so that their results can be directly compared to one another.
+
+Then, I performed PCA to project the data into two-dimensional space so that I can plot the data points and decision boundary of each classifier and visually compare the results.
+
+I hope you enjoy this exploration into each models efficacy!
+
+Click **[here]**(**https://github.com/annakoretchko/model-exploration/blob/master/comparing_classifiers/comparing_classifiers.ipynb) to follow 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
