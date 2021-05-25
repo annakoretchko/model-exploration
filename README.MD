@@ -58,7 +58,7 @@
         <li>
       <a href="#about-the-project">The Projects</a>
       <ul>
-        <li><a href="#built-with">OOP_forest</a></li>
+        <li><a href="#built-with">Random Forest Classifier (Object Oriented)</a></li>
         <li><a href="#built-with">classifier_diabetes</a></li>
         <li><a href="#built-with">comparing_classifiers</a></li>
         <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
@@ -83,7 +83,7 @@ One of the best ways to learn about modeling, is to just mess around with all mo
 The goal of this repo is to employ different models, hyper-tuning techniques, and software structure. You can see each project is based off of comapring models, to one extent or another, but it goes another level deeper by having each project strucutred differently (procedural vs object oriented etc) as a way for me to practice and show just how much analytics is an art. 
 
 
-I have created both juypter notebooks and python scripts of the code. I personally like pure python code, but for tutorials such as this, jupyter notebooks are a great resource for shraing. The HTML and PDF of the completed notebook is also provided for your own edification/if you don't want to run the code yourself. 
+I have created both juypter notebooks and python scripts of the code. I personally like pure python code, but for tutorials such as this, jupyter notebooks are a great resource for sharing. The HTML and PDF of the completed notebook is also provided for your own edification/if you don't want to run the code yourself. 
 
 All data used is for the projects can be found in the *data* folder. 
 
@@ -100,34 +100,20 @@ This section should list any major frameworks that you built your project using.
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## The Projects
 
-### Prerequisites
+### Random Forest Classifier (Object Oriented)
 
-Python is the only requirement for this project (however, enviroment managers such as conda are greatly suggested as well)
-* python
-  ```sh
-  sudo apt-get install python3.6
-  ```
+The data for this analysis is of the Pima Indians and their liklihood of diabetetes. The data can be found [here] (https://data.world/uci/pima-indians-diabetes) or in the data folder in this repo. 
 
-### Installation and Example Run
+This script implements a random forest classifier where the classifier will be evaluated via the out-of-bag (OOB) error estimate, using the above dataset.
 
-1. Create conda environment for garmin_analyis project ([install conda Here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html))
+Each tree in the forest is constructed using a different bootstrap sample from the original data.
 
-2. Downdload lastest wheel (whl) from from the dist folder [here] (/dist/garmin_analysis-0.1-py3-none-any.whl)
+The objective of this script is to explore an object oriented approach to models. This is a binary classification on the dataset to determine if a person has diabetes. 
 
-3. cd to the downloaded wheel file
-   ```sh
-   (garmin_env) cd Downloads/garmin_analysis-0.X-py3-none-any.whl
-   ```
-4. pip install `garmin_analysis-0.X-py3-none-any.whl` to your newly created conda environment
-   ```sh
-   (garmin_env) pip install garmin_analysis-0.X-py3-none-any.whl
-   ```
-5. Now run the package which requires two inputs: -data and -output_path 
-    ```sh
-    (garmin_env) python -m garmin_analysis -data "<path to data file from Garmin Connect" -output_path "<path to where you want the output files to be saved"
-    ```
+Click [here] (https://github.com/annakoretchko/model-exploration/blob/master/OOP_forest/OOP_forest.ipynb) to follow the notebook tutorial!
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
