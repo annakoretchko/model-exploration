@@ -87,9 +87,7 @@ This section should list any major frameworks that you built your project using.
 
 
 <!-- The Projects-->
-## The Projects
-
-### Random Forest Classifier (Object Oriented)
+## Random Forest Classifier (Object Oriented)
 <p align="center">
 <img src="img/RandomForestClassifier(ObjectOriented).png" alt="Logo"> 
 </p>
@@ -101,10 +99,10 @@ Each tree in the forest is constructed using a different bootstrap sample from t
 
 The objective of this script is to explore an object oriented approach to models. This is a binary classification on the dataset to determine if a person has diabetes. 
 
-Click **[here]**(https://github.com/annakoretchko/model-exploration/blob/master/RandomForestClassifier(ObjectOriented)/RandomForestClassifier(ObjectOriented).ipynb) to follow the notebook tutorial!
+Click **[here](https://github.com/annakoretchko/model-exploration/blob/master/RandomForestClassifier(ObjectOriented)/RandomForestClassifier(ObjectOriented).ipynb) to follow the notebook tutorial!
 
 
-### Mutliple Classifiers (Object Oriented)
+## Mutliple Classifiers (Object Oriented)
 <p align="center">
 <img src="img/MutlipleClassifiers(ObjectOriented).png" alt="Logo"> 
 </p>
@@ -128,7 +126,7 @@ It has the following strucutre and is also object oriented:
 
 Click **[here]**(https://github.com/annakoretchko/model-exploration/blob/master/MutlipleClassifiers(ObjectOriented)/MutlipleClassifiers(ObjectOriented).ipynb) to follow the notebook tutorial!
 
-### Comparing Classifiers
+## Comparing Classifiers
 
 **Comparing Bayes, Logistic, and KNN classifiers**
 <p align="center">
@@ -145,7 +143,7 @@ Click [here](https://github.com/annakoretchko/model-exploration/blob/master/comp
 
 
 
-### Comparing Classifiers
+## Comparing Classifiers
 
 **Comparing Bayes, Logistic, and KNN classifiers**
 <p align="center">
