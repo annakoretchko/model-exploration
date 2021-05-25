@@ -146,9 +146,8 @@ Click [here](https://github.com/annakoretchko/model-exploration/blob/master/comp
 
 
 
-## Random Forest vs SVM on Spam Email
+## Random Forest vs SVM on Spam Emails
 
-**Comparing Bayes, Logistic, and KNN classifiers**
 <p align="center">
 <img src="img/Random-Forest-vs-SVM-on-Spam-Emails.png" alt="Logo"> 
 </p>
@@ -157,7 +156,7 @@ This uses a spam e-mail database (binary classifier (spam or not spam) and tests
 
 
 
-Click [here](**https://github.com/annakoretchko/model-exploration/blob/master/comparing_classifiers/comparing_classifiers.ipynb) to follow 
+Click [here](https://github.com/annakoretchko/model-exploration/blob/master/Random-Forest-vs-SVM-on-Spam-Emails/Random-Forest-vs-SVM-on-Spam-Emails.ipynb) to follow 
 
 
 
