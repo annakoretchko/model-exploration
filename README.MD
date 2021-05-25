@@ -51,7 +51,7 @@
     <li><a href="#Mutliple-Classifiers">Mutliple Classifiers (Object Oriented)</a></li>
     <li><a href="#Comparing-Classifiers">Comparing Classifiers</a></li>
     <li><a href="#Random-Forest-vs-SVM-on-Spam-Emails">Random Forest vs SVM on Spam Emails</a></li>
-    <li><a href="#speed_v_accuracy_multiple_models">speed_v_accuracy_multiple_models</a></li>
+    <li><a href="#Speed-vs-Accuracy-of-Multiple-Models">Speed vs Accuracy of Multiple Models</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -158,6 +158,19 @@ This uses a spam e-mail database (binary classifier (spam or not spam) and tests
 
 Click [here](https://github.com/annakoretchko/model-exploration/blob/master/Random-Forest-vs-SVM-on-Spam-Emails/Random-Forest-vs-SVM-on-Spam-Emails.ipynb) to follow 
 
+
+
+## Speed vs Accuracy of Multiple Models
+
+<p align="center">
+<img src="img/Neural_Network.png" alt="Logo"> 
+</p>
+
+This uses a spam e-mail database (binary classifier (spam or not spam) and tests Random Forest vs One-Class SVM performance.
+
+
+
+Click [here](https://github.com/annakoretchko/model-exploration/blob/master/Random-Forest-vs-SVM-on-Spam-Emails/Random-Forest-vs-SVM-on-Spam-Emails.ipynb) to follow 
 
 
 <!-- USAGE EXAMPLES -->
