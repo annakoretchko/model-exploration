@@ -95,7 +95,9 @@ This section should list any major frameworks that you built your project using.
 ## The Projects
 
 ### Random Forest Classifier (Object Oriented)
-
+<p align="center">
+<img src="img/RandomForestClassifier(ObjectOriented).png" alt="Logo"> 
+</p>
 The data for this analysis is of the Pima Indians and their liklihood of diabetetes. The data can be found [here](https://data.world/uci/pima-indians-diabetes) or in the data folder in this repo. 
 
 This script implements a random forest classifier where the classifier will be evaluated via the out-of-bag (OOB) error estimate, using the above dataset.
@@ -104,7 +106,7 @@ Each tree in the forest is constructed using a different bootstrap sample from t
 
 The objective of this script is to explore an object oriented approach to models. This is a binary classification on the dataset to determine if a person has diabetes. 
 
-Click [here](https://github.com/annakoretchko/model-exploration/blob/master/OOP_forest/OOP_forest.ipynb) to follow the notebook tutorial!
+Click [here](https://github.com/annakoretchko/model-exploration/blob/master/RandomForestClassifier(ObjectOriented)/RandomForestClassifier(ObjectOriented).ipynb) to follow the notebook tutorial!
 
 
 ### Mutliple Classifiers (Object Oriented)
@@ -132,11 +134,13 @@ It has the following strucutre and is also object oriented:
 Click [here](https://github.com/annakoretchko/model-exploration/blob/master/MutlipleClassifiers(ObjectOriented)/MutlipleClassifiers(ObjectOriented).ipynb) to follow the notebook tutorial!
 
 ### Comparing Classifiers
+
+**Comparing Bayes, Logistic, and KNN classifiers**
 <p align="center">
 <img src="img/KNeighborsClassifier(n_neighbors=3).png" alt="Logo"> 
 </p>
 
-**Comparing Bayes, Logistic, and KNN classifiers**
+
 
 There are a myriad of classifiers out there, each with their own use case and rationale for when to be employed. This script goes through the results of Naive Bayes, Logisitc, and KNN all on the same sample dataset so that their results can be directly compared to one another.
 
