@@ -47,11 +47,11 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#Random-Forest-Classifier-(Object-Oriented)">Random Forest Classifier (Object Oriented)</a></li>
-    <li><a href="#built-with">Mutliple Classifiers (Object Oriented)</a></li>
+    <li><a href="#Random-Forest-Classifier">Random Forest Classifier (Object Oriented)</a></li>
+    <li><a href="#Mutliple-Classifiers">Mutliple Classifiers (Object Oriented)</a></li>
     <li><a href="#Comparing-Classifiers">Comparing Classifiers</a></li>
-    <li><a href="#built-with">randomforest_v_svm_classifier</a></li>
-    <li><a href="#built-with">speed_v_accuracy_multiple_models</a></li>
+    <li><a href="#randomforest_v_svm_classifier">randomforest_v_svm_classifier</a></li>
+    <li><a href="#speed_v_accuracy_multiple_models">speed_v_accuracy_multiple_models</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -87,7 +87,8 @@ This section should list any major frameworks that you built your project using.
 
 
 <!-- The Projects-->
-## Random Forest Classifier (Object Oriented)
+## Random Forest Classifier 
+**(Object Oriented)**
 <p align="center">
 <img src="img/RandomForestClassifier(ObjectOriented).png" alt="Logo"> 
 </p>
@@ -102,7 +103,8 @@ The objective of this script is to explore an object oriented approach to models
 Click [here](https://github.com/annakoretchko/model-exploration/blob/master/RandomForestClassifier(ObjectOriented)/RandomForestClassifier(ObjectOriented).ipynb) to follow the notebook tutorial!
 
 
-## Mutliple Classifiers (Object Oriented)
+## Mutliple Classifiers 
+**(Object Oriented)**
 <p align="center">
 <img src="img/MutlipleClassifiers(ObjectOriented).png" alt="Logo"> 
 </p>
